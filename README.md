@@ -32,9 +32,8 @@ Análisis individual:
     Balance: Consume el mismo número de medios de un sentido que de otro.           
         Respuestas:    
             - Sí
-            - No:    
-                - Desequilibro a derechas.    
-                - Desequilibrio a izquierdas.
+            - No:-> - Desequilibro a derechas.    
+                    - Desequilibrio a izquierdas.
    
    Equilibrio: Consume al menos 1 medio de cada grupo.
         Respuestas:    Sí, No                    
