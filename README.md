@@ -31,7 +31,7 @@ Dieta mediática
 Análisis individual:                                 
     Balance: Consume el mismo número de medios de un sentido que de otro.           
         Respuestas:    
-            - Sí
+            - Sí ||
             - No:-> - Desequilibro a derechas.    
                     - Desequilibrio a izquierdas.
    
@@ -40,8 +40,8 @@ Análisis individual:
    
    Saturación: Número de medios seguidos     
         Respuestas:    
-            - monosaturada: <=5
-            - saturada: >=6 y <=9 
+            - monosaturada: <=5 ||
+            - saturada: >=6 y <=9  ||
             - polisaturada: >=10
 
 
@@ -49,7 +49,7 @@ Para obtener los seguidores se plantea desarrollar un módulo que descargue los 
 
 Para obtener los resultados de los parámtros del análisis de la dieta mediática, se plantea desarrollar un módulo que:
   1. Accede a los usuarios previamente almacenados
-  2. Via TwitterAPI, accederá a cada uno de los ususarios para recuperar las cuentas a las que sigue y hacer conteo de periódicos a los que siguen.
+  2. Via TwitterAPI, accederá a cada uno de los ususarios para recuperar las cuentas a las que sigue y establecer el valor de los parámetros de saturación, equilibrio y balanceo. Fichero: dataProcess.py
 
 4. Metodología.
 aqui texto
