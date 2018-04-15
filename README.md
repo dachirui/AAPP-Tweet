@@ -48,10 +48,10 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
     Para obtener los seguidores se plantea desarrollar un módulo que descargue los seguidores mediante API de una cuenta de Twitter y los almacene en una base de datos. Fichero: apiToMongoDb.py
 
     Para obtener los resultados de los parámetros del análisis de la dieta mediática, se plantea desarrollar un módulo que:
-        1. Accede a los usuarios previamente almacenados
-        2. Via TwitterAPI, accederá a cada uno de los ususarios para recuperar las cuentas a las que sigue y establecer el valor de los parámetros de saturación, equilibrio y balanceo. Fichero: dataProcess.py
-        3. Se toma el fichero CSV genearado por dataProcess.py como fuente de datos para proceder al montaje de la visualización utilizando Tableau.
-        4. Se analizan los resultados y se extraen conclusiones.
+    1. Accede a los usuarios previamente almacenados
+    2. Via TwitterAPI, accederá a cada uno de los ususarios para recuperar las cuentas a las que sigue y establecer el valor de los parámetros de saturación, equilibrio y balanceo. Fichero: dataProcess.py
+    3. Se toma el fichero CSV genearado por dataProcess.py como fuente de datos para proceder al montaje de la visualización utilizando Tableau.
+    4. Se analizan los resultados y se extraen conclusiones.
 
 
 4. Metodología.
