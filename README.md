@@ -58,8 +58,8 @@
    2. Diseño: diseño de los módulos de tratamiento de datos; configuración cuenta consumidora TwitterAPI; Diseño visualizaciones; clasificación ideológica de los periódicos.
    3. Implementación: implementación de la base de datos; implementación apiToMongoDb.py; implementación dataProcess.py;
    4. GET: creación de los conjuntos de datos (usuarios y dieta)
-   5. Analyse: análisis para la consecución del proyecto
-   6. Present: presentación de los resultados obtenidos
+   5. ANALYSE: análisis para la consecución del proyecto
+   6. PRESENT: presentación de los resultados obtenidos
 
 # Resultados
    Tras la recogida de datos, se ha pasado a la implementación del módulo de presentación. Para la realización de este módulo, que se encargargará de la visualización de estos datos recogidos, se utilizará la herramienta de visualización Tableau. Este módulo consiste en una historia que contiene dos cuadros de mandos. A continuación, se entra en detalle sobre los gráficos qué se incorporan en cada uno de los cuadros de mando.
