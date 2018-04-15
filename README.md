@@ -79,10 +79,10 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
                 Se muestran los parámetros de balanceo, saturación y equilibrio en todas las posibles combinaciones de la dieta mediática. Con este gráfico, se puede ver a simple golpe de vista cuál es el patrón de dieta mediática que más se repite en la muestra.
    
    Resultados
-        En nuestro caso, el público se caracteriza por tener una dieta no equilibrada, monosaturada y balanceada a la izquierda. Con 420 registros, representa un 34,65% de la muestra.
-        Le sigue de cerca, el perfil de seguidor que no sigue a ninguna cuenta de periódico y que por lo tanto, no tiene dieta mediática. Con 411 registros, representa un 33,91% de la muestra.
-        En tercera posición, se encuentra el perfil de dieta no equilibrada, saturada y con balanceo a la izquerda. Con 112 registros, representa un 9,24%
-        Si nos fijamos solo en el balanceo, quedaría de la siguiente forma:
+        -En nuestro caso, el público se caracteriza por tener una dieta no equilibrada, monosaturada y balanceada a la izquierda. Con 420 registros, representa un 34,65% de la muestra.
+        - Le sigue de cerca, el perfil de seguidor que no sigue a ninguna cuenta de periódico y que por lo tanto, no tiene dieta mediática. Con 411 registros, representa un 33,91% de la muestra.
+        - En tercera posición, se encuentra el perfil de dieta no equilibrada, saturada y con balanceo a la izquerda. Con 112 registros, representa un 9,24%
+        - Si nos fijamos solo en el balanceo, quedaría de la siguiente forma:
         
             Balanceada: 121 registros, representan el 9,98% de la muestra.
             Balanceo a la izquierda: 573 registros, representan el 47,27% de la muestra.
@@ -103,12 +103,14 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
                 distribución de los seguidores a lo largo de los distintos periódicos en función del balanceo que aparezca.
         
     Resultados
-        Fijándonos en 'Saturación y consumo de periódicos', se puede observar que tanto en dietas monostauradas, como dietas saturadas, los medios de izquierdas y centroizquierda, cuentan con más seguidores. Sin embargo en dietas polisaturadas, no hay ningún grupo de destaque.
-        Si pasamos a la visualización 'Balance y consumo de periódicos', se puede observar que entre los seguidores que balancean a la izquierda, sí que hay mayor tendencia a seguir periódicos de derechas, en menor grado que periódicos de izquierdas, pero hay tendencia. Sin embargo, entre los seguidores que balancean a la derecha no se observa ningún interés sobre los medios de izquierdas.
-        Entre los usuarios con dieta balanceada, los periódicos más populares son el País y el Mundo.
+        - Fijándonos en 'Saturación y consumo de periódicos', se puede observar que tanto en dietas monostauradas, como dietas saturadas, los medios de izquierdas y centroizquierda, cuentan con más seguidores. Sin embargo en dietas polisaturadas, no hay ningún grupo de destaque.
+        - Si pasamos a la visualización 'Balance y consumo de periódicos', se puede observar que entre los seguidores que balancean a la izquierda, sí que hay mayor tendencia a seguir periódicos de derechas, en menor grado que periódicos de izquierdas, pero hay tendencia. Sin embargo, entre los seguidores que balancean a la derecha no se observa ningún interés sobre los medios de izquierdas.
+        - Entre los usuarios con dieta balanceada, los periódicos más populares son el País y el Mundo.
         
 
 6. Guía de uso.
+
+
 
 
 7. Términos de uso.
