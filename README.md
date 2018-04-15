@@ -32,7 +32,7 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
        Balance: Consume el mismo número de medios de un sentido que de otro.           
             Respuestas:    
                 - Sí
-                - No: - Balnceo a derechas.    
+                - No: - Balanceo a derechas.    
                       - Balanceo a izquierdas.
 
       Equilibrio: Consume al menos 1 medio de cada grupo.
@@ -63,10 +63,45 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
     6. Present: presentación de los resultados obtenidos
 
 5. Resultados.
-aqui texto
+    Tras la recogida de datos, se ha pasado a la implementación del módulo de presentación. Para la realización de este módulo, que se encargargará de la visualización de estos datos recogidos, se utilizará la herramienta de visualización Tableau. Este módulo consiste en una historia que contiene dos cuadros de mandos. A continuación, se entra en detalle sobre los gráficos qué se incorporan en cada uno de los cuadros de mando.
+
+    Historia
+        Título: Visualización sobre el análisis de una muestra de los seguidores de la cuenta de Twitter del ayuntamiento de Valencia
+        Cuadro de mando 1
+            Título: Resultados generales
+            Gráfico 1
+                Se muestra el número de individuos de la muestra, población y fecha del análisis.
+            Gráfico 2
+                Se muestra en un diagrama de barras el número de seguidores del ayuntamiento que sigue a cada periódico.
+            Gráfico 3
+                Se muestran los parámetros de balanceo, saturación y equilibrio en todas las posibles combinaciones de la dieta mediática. Con este gráfico, se puede ver a simple golpe de vista cuál es el patrón de dieta mediática que más se repite en la muestra.
+                En nuestro caso, el público se caracteriza por tener una dieta no equilibrada, monosaturada y balanceada a la izquierda. Con 420 registros, representa un 34,65% de la muestra.
+                Le sigue de cerca, el perfil de seguidor que no sigue a ninguna cuenta de periódico y que por lo tanto, no tiene dieta mediática. Con 411 registros, representa un 33,91% de la muestra.
+                En tercera posición, se encuentra el perfil de dieta no equilibrada, saturada y con balanceo a la izquerda. Con 112 registros, representa un 9,24%
+                Si nos fijamos solo en el balanceo, quedaría de la siguiente forma:
+                    Balanceada: 121 registros, representan el 9,98% de la muestra.
+                    Balanceo a la izquierda: 573 registros, representan el 47,27% de la muestra.
+                    Balanceo a la derecha: 94 registros, representan el 7,76% de la muestra.
+                Se observa una clara tendencia hacia la izquierda.
+                
+        Cuadro de mando 2
+            Título: Comparación entre consumo de periódicos y parámetros de balanceo y saturación
+            Gráfico 1
+                Se muestra para cada uno de los distintos valores que puede tomar el parámetro saturación, el
+                número de seguidores que siguen a cada cuenta de periódico. Este gráfico, nos permite visualizar la
+                densidad de seguidores que tiene cada periódico para cada valor del parámetro saturación.
+            Gráfico 2
+                Se muestra para cada uno de los distintos valores que puede tomar el parámetro equilibrio, el
+                número de seguidores que siguen a cada cuenta de periódico. Este gráfico, nos permite visualizar la
+                distribución de los seguidores a lo largo de los distintos periódicos en función del equilibrio o
+                desequilibrio que aparezca.
+    Conclusiones
+    Con esta visualización, se podrá observar cuál es el patrón de consumo que sigue la muestra de los
+    seguidores, así como visualizar qué cuentas de periódicos son las más seguidas ante cada uno de los
+    desequilibrios que se puedan dar.
 
 6. Guía de uso.
-aqui texto
+
 
 7. Términos de uso.
 El contenido de este repositorio está sujeto a la licencia GNU General Public License v3.0.
