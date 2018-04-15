@@ -126,7 +126,7 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
     Este paso se realiza si no se dispone de tiempo para hacer un análisis de toda la población, ya que se creará una muestra.
     14. En el mismo directorio que dataProcess.py ejecutar en consola: python dataProcess.py
     Con esto obtenemos los valores de los parámetros de la dieta de cada seguidor de la muestra. Indicar el la línea 235 el el nombre del fichero CSV de la población o la muestra, por defecto está el nombre del fichero que se genera tras la muestra.
-    15. Abrir el CSV generado por dataProcess.py con un software de hojas de cálculo(Calc, Excel, ...) y guardarlo como archivo con extensión .xls o .xlsx
+    15. Abrir el CSV generado por dataProcess.py con un software de hojas de cálculo (Calc, Excel, ...) y guardarlo como archivo con extensión .xls o .xlsx
     16. Seleccionar en Tableau el .xls generado y confeccionar las visualizaciones.
     17. La visualización de este estudio se encuentra en https://public.tableau.com/profile/david3308#!/vizhome/Anlisisparmetrosdietameditica/Historia1
 
