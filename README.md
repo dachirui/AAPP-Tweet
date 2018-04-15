@@ -108,8 +108,23 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
         - Entre los usuarios con dieta balanceada, los periódicos más populares son el País y el Mundo.
         
 
-6. Guía de uso.
-
+6. Guía de uso bajo entorno linux.
+    1. Crear una cuenta de Twitter en https://twitter.com/
+    2. Dar de alta aplicación para obtener credenciales en https://apps.twitter.com/
+    3. Sustituir los tokens de acceso en los campos indicados con 'xxxxxxxxxxxxxxxxx' en los ficheros apiToMongoDb.py y dataProcess.py
+    4. Instalar python: sudo apt-get install python
+    5. Instalar pip: sudo python get-pip.py
+    6. Instalar pymongo: sudo python -m pip install pymongo
+    7. Instalar librería Twitter: sudo pip install python-twitter
+    8. Instalar unicodecsv: sudo apt-get install python-unicodecsv
+    9. Instalar librería tweepy: sudo pip install tweepy
+    10. En el mismo directorio debe estar los siguientes archivos: apiToMongoDb.py, funciones.py, dataProcess.py
+    11. En la línea 76 de apiToMongoDb.py indicar nombre de la cuenta de la que se quieren extraer los seguidores. Por defecto: AjuntamentVLC
+    12. En el mismo directorio que dataProcess.py y apiToMongoDb.py ejecutar en consola: python apiToMongoDb.py 
+    Con esto obtenemos los seguidores e información asociada.
+    13. En el mismo directorio que dataProcess.py y apiToMongoDb.py ejecutar en consola: python dataProcess.py
+    Con esto obtenemos los valores de los parámetros de la dieta de cada seguidor de la muestra
+    
 
 
 
