@@ -120,13 +120,15 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
     9. Instalar librería tweepy: sudo pip install tweepy
     10. En el mismo directorio debe estar los siguientes archivos: apiToMongoDb.py, funciones.py, dataProcess.py
     11. En la línea 76 de apiToMongoDb.py indicar nombre de la cuenta de la que se quieren extraer los seguidores. Por defecto: AjuntamentVLC
-    12. En el mismo directorio que dataProcess.py y apiToMongoDb.py ejecutar en consola: python apiToMongoDb.py 
+    12. En el mismo directorio que apiToMongoDb.py ejecutar en consola: python apiToMongoDb.py 
     Con esto obtenemos los seguidores e información asociada.
-    13. En el mismo directorio que dataProcess.py y apiToMongoDb.py ejecutar en consola: python dataProcess.py
-    Con esto obtenemos los valores de los parámetros de la dieta de cada seguidor de la muestra
-    
-
-
+    13(Opcional). En el mismo directorio que funciones.py ejecutar en consola: python funciones.py
+    Este paso se realiza si no se dispone de tiempo para hacer un análisis de toda la población, ya que se creará una muestra.
+    14. En el mismo directorio que dataProcess.py ejecutar en consola: python dataProcess.py
+    Con esto obtenemos los valores de los parámetros de la dieta de cada seguidor de la muestra. Indicar el la línea 235 el el nombre del fichero CSV de la población o la muestra, por defecto está el nombre del fichero que se genera tras la muestra.
+    15. Abrir el CSV generado por dataProcess.py con un software de hojas de cálculo(Calc, Excel, ...) y guardarlo como archivo con extensión .xls o .xlsx
+    16. Seleccionar en Tableau el .xls generado y confeccionar las visualizaciones.
+    17. La visualización de este estudio se encuentra en https://public.tableau.com/profile/david3308#!/vizhome/Anlisisparmetrosdietameditica/Historia1
 
 7. Términos de uso.
 El contenido de este repositorio está sujeto a la licencia GNU General Public License v3.0.
