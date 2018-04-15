@@ -1,5 +1,5 @@
 # AAPP-Tweet
-Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitter del Ayuntamiento de Valencia
+# Análisis de los parámetros de la dieta mediática de los seguidores de Twitter de la cuenta del Ayuntamiento de Valencia
 
 1. Título: Análisis de los parámetros de la dieta mediática de los seguidores de Twitter del Ayuntamiento de Valencia
 
