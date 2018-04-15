@@ -2,7 +2,7 @@
 # Dieta mediática de los seguidores de Twitter de la cuenta del Ayuntamiento de Valencia
 
 
-# Introducción. Se indica el objetivo del proyecto, el problema a resolver y el contexto del mismo.
+# Introducción
 
    El principal objetivo del proyecto, es el diseño e implementación de una herramienta, que mediante el uso de herramientas externas, permita realizar los procesos de obtención, limpieza y presentación de datos sobre la información de seguidores de una cuenta de Twitter de cualquier administración pública.
 
@@ -10,7 +10,7 @@
 
    Este proyecto se desarrolla en el contexto actual en el que el uso de las núevas tecnologías y el acceso a las redes sociales está al alance de cualquiera. Este hecho, sumado a la importancia de la transparencia de las insitituciones y la participación ciudadana da pie a proyectos como el presente, proyectos que buscan mostrar información sobre la ciudadania que es gobernada para poder acertar a la hora de la toma de decisiones.
 
-# Descripción de la solución planteada.
+# Descripción de la solución planteada
 
    Se propone un análisis de la dieta mediática de cada seguidor que se basará en las cuentas de periódicos seguidas
 
@@ -53,7 +53,7 @@
     4. Se analizan los resultados y se extraen conclusiones.
 
 
-# Metodología.
+# Metodología
    1. Análisis y definición: definición del proyecto (DEFINE), Caracterización del público objetivo; estudio de la estructura del objeto JSON que contiene datos del usuario (FIND); estudio del rate-limit y predicción de coste de computo.
    2. Diseño: diseño de los módulos de tratamiento de datos; configuración cuenta consumidora TwitterAPI; Diseño visualizaciones; clasificación ideológica de los periódicos.
    3. Implementación: implementación de la base de datos; implementación apiToMongoDb.py; implementación dataProcess.py;
@@ -61,7 +61,7 @@
    5. Analyse: análisis para la consecución del proyecto
    6. Present: presentación de los resultados obtenidos
 
-# Resultados.
+# Resultados
    Tras la recogida de datos, se ha pasado a la implementación del módulo de presentación. Para la realización de este módulo, que se encargargará de la visualización de estos datos recogidos, se utilizará la herramienta de visualización Tableau. Este módulo consiste en una historia que contiene dos cuadros de mandos. A continuación, se entra en detalle sobre los gráficos qué se incorporan en cada uno de los cuadros de mando.
 
     Historia
@@ -87,7 +87,7 @@
             Balanceo a la izquierda: 573 registros, representan el 47,27% de la muestra.
             Balanceo a la derecha: 94 registros, representan el 7,76% de la muestra.
        
-      Se observa una clara tendencia hacia la izquierda.
+   Se observa una clara tendencia hacia la izquierda.
                 
       Cuadro de mando 2
       
@@ -107,7 +107,7 @@
         - Entre los usuarios con dieta balanceada, los periódicos más populares son el País y el Mundo.
         
 
-# Guía de uso bajo entorno linux.
+# Guía de uso bajo entorno linux
    1. Crear una cuenta de Twitter en https://twitter.com/
    2. Dar de alta aplicación para obtener credenciales en https://apps.twitter.com/
    3. Sustituir los tokens de acceso en los campos indicados con 'xxxxxxxxxxxxxxxxx' en los ficheros apiToMongoDb.py y dataProcess.py
@@ -129,5 +129,5 @@
    16. Seleccionar en Tableau el .xls generado y confeccionar las visualizaciones.
    17. La visualización de este estudio se encuentra en https://public.tableau.com/profile/david3308#!/vizhome/Anlisisparmetrosdietameditica/Historia1
 
-# Términos de uso.
+# Términos de uso
 El contenido de este repositorio está sujeto a la licencia GNU General Public License v3.0.
