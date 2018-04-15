@@ -67,6 +67,7 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
 
     Historia
         Título: Visualización sobre el análisis de una muestra de los seguidores de la cuenta de Twitter del ayuntamiento de Valencia
+        
         Cuadro de mando 1
             Título: Resultados generales
             Gráfico 1
@@ -75,6 +76,7 @@ Proyecto sobre los parámetros de la dieta mediática de los seguidores de Twitt
                 Se muestra en un diagrama de barras el número de seguidores del ayuntamiento que sigue a cada periódico.
             Gráfico 3
                 Se muestran los parámetros de balanceo, saturación y equilibrio en todas las posibles combinaciones de la dieta mediática. Con este gráfico, se puede ver a simple golpe de vista cuál es el patrón de dieta mediática que más se repite en la muestra.
+                
                 En nuestro caso, el público se caracteriza por tener una dieta no equilibrada, monosaturada y balanceada a la izquierda. Con 420 registros, representa un 34,65% de la muestra.
                 Le sigue de cerca, el perfil de seguidor que no sigue a ninguna cuenta de periódico y que por lo tanto, no tiene dieta mediática. Con 411 registros, representa un 33,91% de la muestra.
                 En tercera posición, se encuentra el perfil de dieta no equilibrada, saturada y con balanceo a la izquerda. Con 112 registros, representa un 9,24%
