@@ -121,7 +121,7 @@
    11. En la línea 76 de apiToMongoDb.py indicar nombre de la cuenta de la que se quieren extraer los seguidores. Por defecto: AjuntamentVLC
    12. En el mismo directorio que apiToMongoDb.py ejecutar en consola: python apiToMongoDb.py 
     Con esto obtenemos los seguidores e información asociada.
-   13(Opcional). En el mismo directorio que funciones.py ejecutar en consola: python funciones.py
+   13. (Opcional) En el mismo directorio que funciones.py ejecutar en consola: python funciones.py
     Este paso se realiza si no se dispone de tiempo para hacer un análisis de toda la población, ya que se creará una muestra.
    14. En el mismo directorio que dataProcess.py ejecutar en consola: python dataProcess.py
     Con esto obtenemos los valores de los parámetros de la dieta de cada seguidor de la muestra. Indicar el la línea 235 el el nombre del fichero CSV de la población o la muestra, por defecto está el nombre del fichero que se genera tras la muestra.
