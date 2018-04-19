@@ -127,7 +127,7 @@
     Con esto obtenemos los valores de los parámetros de la dieta de cada seguidor de la muestra. Indicar el la línea 235 el el nombre del fichero CSV de la población o la muestra, por defecto está el nombre del fichero que se genera tras la muestra.
    15. Abrir el CSV generado por dataProcess.py con un software de hojas de cálculo (Calc, Excel, ...) y guardarlo como archivo con extensión .xls o .xlsx
    16. Seleccionar en Tableau el .xls generado y confeccionar las visualizaciones.
-   17. La visualización de este estudio se encuentra en https://public.tableau.com/profile/david3308#!/vizhome/Anlisisparmetrosdietameditica/Historia1
+   17. La visualización de este estudio se encuentra en https://public.tableau.com/views/Parmetrosdietameditica/Visualizacin?:embed=y&:display_count=yes
 
 # Términos de uso
 El contenido de este repositorio está sujeto a la licencia GNU General Public License v3.0.
